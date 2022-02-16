@@ -1,0 +1,27 @@
+body {
+	background-color: cadetblue;
+}
+
+main {
+	border: solid 10px darkorange;
+}
+
+p {
+	color: White;
+	font-size: 80px;
+	font-family:Georgia;
+
+}
+
+#stuff{
+	background-color: teal;
+	border:  20px dotted lightgoldenrodyellow;
+}
+
+
+a p {
+	font-size: 45px;
+	background-color: teal;
+	border-radius: 100px;
+	padding: 2vw;
+}
