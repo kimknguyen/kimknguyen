@@ -4,6 +4,14 @@ body {
     background-color: white;
 }
 
+h3{
+    font-family: 'Palette Mosaic', cursive;
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
 button {
     position: absolute;
     top: 30%;
@@ -13,10 +21,11 @@ button {
     padding:20vw;
     border-radius: 30px;
     background-color: dimgray;
-}
+    }
 
 
 button:hover {
     background-color: red;
 
 }
+
