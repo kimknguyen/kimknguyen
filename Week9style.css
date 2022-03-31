@@ -1,0 +1,22 @@
+
+   
+body {
+    background-color: white;
+}
+
+button {
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    margin-top: -30px;
+    margin-left: -30px;
+    padding:20vw;
+    border-radius: 30px;
+    background-color: dimgray;
+}
+
+
+button:hover {
+    background-color: red;
+
+}
