@@ -5,6 +5,8 @@ let theEmptyArray = [];
 let theBody = document.querySelector("body");
 const myButton = document.getElementById("theButton");
 
+
+
 myButton.addEventListener('click', magicClick)
 
 //const link = document.createElement('a');
@@ -18,9 +20,11 @@ function magicClick(){
     theBody.style.color = "white"; 
     myButton.style.backgroundColor = "black"; 
     document.querySelector("h3").textContent = "WHY DID YOU CLICK?!"
+
     //theButton.style.visibility = 'none'; 
     //string.link("https://media.giphy.com/media/5oWpOD8Thsmo8/giphy.gif")
 }
+
 
 
 
