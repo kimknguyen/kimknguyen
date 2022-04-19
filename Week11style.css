@@ -1,0 +1,45 @@
+body{
+  background-color: #971d31;
+}
+
+h1{
+  font-family: 'Anybody';
+  font-size: 80px;
+  padding-top: 1em;
+}
+
+.start{
+  font-family: 'Anybody';
+  font-size: 40px;
+  color: #bc0408;
+  font-weight: bolder;
+  padding-top: 10em;
+}
+
+h3{
+  font-family: 'Comfortaa';
+  font-size: 60px;
+  padding-top: 0.5em;
+}
+
+.genre{
+  height: 300;
+  width: 300;
+}
+
+.music{
+  height: 300;
+  width: 300;
+}
+
+.col-sm{
+  font-family: 'Bungee Shade';
+  color:#000000;
+}
+
+.artist{
+  font-family:'Poppins', sans-serif;
+  font-size: 30px;
+  color: #ea443e;
+
+}
