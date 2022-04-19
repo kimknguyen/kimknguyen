@@ -17,6 +17,25 @@
     <div class="container">
       <div class="row"> <center>
 
+        <script type = "text/javascript"
+      src = "https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+
+    <script type = "text/javascript" language = "javascript">
+         $(document).ready(function() {
+
+            $("#hide").click(function () {
+               $(".container").hide( 1000 );
+            });
+
+            $("#show").click(function () {
+               $(".container").show( 1000 );
+            });
+
+        
+         });
+      </script>
+
 
         <iframe class="music" src="https://open.spotify.com/embed/track/51NFxnQvaosfDDutk0tams?utm_source=generator" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
 
@@ -39,6 +58,10 @@
 
       </center> </div>
     </div>
+
+     <input id = "hide" type = "button" value = "Hide" /> 
+      <input id = "show" type = "button" value = "Show" />
+      
   </body>
 
 </html>
