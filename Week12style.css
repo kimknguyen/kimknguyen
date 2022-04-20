@@ -1,0 +1,86 @@
+body{
+  background-color: #BFA3FF;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Rubik Glitch', cursive;
+  font-size: 100px;
+  color: black;
+}
+
+
+
+h2{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 40px;
+  padding-left: 1em;
+  color: #663BE6;
+  /*padding-bottom: 3em;*/
+}
+
+.text{
+  font-family: 'Rubik', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+.next{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 30px;
+  color: #663BE6;
+  padding-left: 33em;
+}
+
+.previous{
+  font-family: 'Rubik Mono One', sans-serif;
+  font-size: 30px;
+  color: #663BE6;
+  padding-left: 0em;
+}
+
+
+
+
+.pages {
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.screenshot{
+  display: block;
+  width: 500px;
+  height: 400px;
+
+}
+
+
+
+a:hover{
+  color: #4446E6;
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 400px;
+  height: 300px;
