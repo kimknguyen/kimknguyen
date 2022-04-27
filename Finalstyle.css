@@ -17,10 +17,17 @@ p{
   color: white;
 }
 
+a{
+  font-size: 20px;
+  font-family: monospace;
+  color: white;
+}
+
+
 
 .relative p {
 position: relative;
-left:  50px;
+left:  30px;
 }
 
 
