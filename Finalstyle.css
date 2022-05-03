@@ -27,13 +27,14 @@ a{
 }
 */
 
-.row {
+/*.row {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   padding: 0 4px;
 }
 
-/* Create two equal columns that sits next to each other */
+ 
 .column {
   flex: 50%;
   padding: 0 4px;
@@ -46,6 +47,26 @@ a{
   height: 300px;
 
 } 
+
+*/
+
+
+.container {
+  display:  flex;
+  row-gap: 60px;
+  column-gap: 60px;
+} 
+
+.container > div{
+  margin:  60px;
+  padding: 0 4px;
+}
+
+.container img{
+  width: 400px;
+  height: 300px;
+  vertical-align: middle;
+}
 
 
 .relative p {
