@@ -50,6 +50,17 @@ a{
 
 */
 
+.profile img{
+  transition: all .2s ease-in-out;
+}
+
+.profile img:hover{
+transform: scale(1.5)
+}
+
+/*https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/ */
+
+
 
 .container {
   display:  flex;
